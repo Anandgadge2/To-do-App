@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>To-Do Dashboard</title>
+        <script defer src="script.js"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css"
+            rel="stylesheet">
+    </head>
+    <body class="bg-gray-100 min-h-screen p-6">
+        <div class="max-w-md mx-auto">
+            <h1 class="text-3xl font-bold text-center mb-6">My Tasks</h1>
+
+            <div class="flex mb-4">
+                <input id="taskInput" class="flex-1 px-3 py-2 border rounded-l"
+                    placeholder="New task..." />
+                <button id="addTaskBtn"
+                    class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded-r">Add</button>
+            </div>
+
+            <ul id="taskList"
+                class="bg-white shadow-md rounded p-4 space-y-2"></ul>
+
+            <button id="logoutBtn"
+                class="mt-6 bg-red-500 hover:bg-red-700 text-white px-4 py-2 w-full rounded">Logout</button>
+        </div>
+    </body>
+</html>

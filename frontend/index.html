@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login/Register</title>
+  <script defer src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+  <h1 class="text-2xl font-bold mb-6">To-Do App</h1>
+
+  <div class="w-full max-w-xs">
+    <form id="registerForm" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+      <h2 class="text-xl mb-4">Register</h2>
+      <input id="regEmail" type="email" placeholder="Email" class="w-full mb-2 px-3 py-2 border rounded"/>
+      <input id="regPassword" type="password" placeholder="Password" class="w-full mb-4 px-3 py-2 border rounded"/>
+      <button type="submit" class="w-full bg-blue-500 hover:bg-blue-700 text-white py-2 rounded">Register</button>
+    </form>
+
+    <form id="loginForm" class="bg-white shadow-md rounded px-8 pt-6 pb-8">
+      <h2 class="text-xl mb-4">Login</h2>
+      <input id="loginEmail" type="email" placeholder="Email" class="w-full mb-2 px-3 py-2 border rounded"/>
+      <input id="loginPassword" type="password" placeholder="Password" class="w-full mb-4 px-3 py-2 border rounded"/>
+      <button type="submit" class="w-full bg-green-500 hover:bg-green-700 text-white py-2 rounded">Login</button>
+    </form>
+  </div>
+</body>
+</html>
