@@ -46,33 +46,6 @@ Frontend: HTML5, Tailwind CSS, JavaScript (DOM manipulation)
 
 Tools: MongoDB Compass (for DB management), Postman (for API testing)
 
-Installation & Setup
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/todo-app.git
-Navigate to the backend directory and install dependencies:
-
-bash
-Copy
-Edit
-cd backend
-npm install
-Create a .env file in the backend folder with:
-
-ini
-Copy
-Edit
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-Start the backend server:
-
-bash
-Copy
-Edit
 npm start
 Open the frontend folder and launch your frontend (can be served with live-server or any HTTP server).
 
